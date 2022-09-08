@@ -25,7 +25,7 @@ const opts = {
   preflightCommitment: "processed"
 }
 
-const TWITTER_HANDLE = 'elonmusk';
+const TWITTER_HANDLE = 'test';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -167,7 +167,6 @@ const App = () => {
             {gifList.map((item, index) => (
               <div className="gif-item" key={index}>
                 <img src={item.gifLink} />
-                item.userAddress.toString()
               </div>
             ))}
           </div>

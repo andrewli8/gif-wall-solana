@@ -94,6 +94,7 @@
   justify-items: center;
   margin: 0;
   padding: 0;
+  overflow: scroll;
 }
 
 .gif-grid .gif-item {
@@ -102,6 +103,7 @@
   position: relative;
   justify-self: center;
   align-self: center;
+  overflow: scroll;
 }
 
 .gif-item img {
